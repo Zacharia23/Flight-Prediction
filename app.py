@@ -4,8 +4,8 @@ app = Flask(__name__)
 
 
 @app.route('/')
-def hello_world():  # put application's code here #https://machinelearningprojects.net/flight-price-prediction/
-    return 'Hello World!' # https://github.com/sharmaji27/Flight-Price-Prediction/blob/master/flight%20price.ipynb
+def hello_world():  # put application's code here
+    return 'Hello World!' #
 
 
 if __name__ == '__main__':
